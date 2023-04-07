@@ -131,6 +131,9 @@ body {
 .hero-section {
   background-color: var(--color-hero-background);
 }
+.hero {
+  min-height: 600px;
+}
 .title {
   font-family: "Roboto";
   font-weight: 700;
@@ -139,10 +142,19 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-white-background);
   text-align: center;
+  padding-top: 188px;
 }
 .title-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  padding: 16px 32px;
+
   color: var(--color-white-background);
   background-color: var(--color-primary-brand);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
