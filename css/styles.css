@@ -114,10 +114,9 @@ body {
 }
 .site-address {
   display: flex;
+  gap: 40px;
 }
-.address .item + .item {
-  margin-left: 40px;
-}
+
 .address-link,
 .address-link {
   color: var(--color-text);
@@ -131,11 +130,16 @@ body {
 }
 .hero-section {
   background-color: var(--color-hero-background);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero {
-  display: flex;
+  text-align: center;
 }
 .title {
+  display: block;
+  margin: 0 auto;
+  max-width: 496px;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
@@ -145,6 +149,8 @@ body {
   text-align: center;
 }
 .title-btn {
+  min-width: 169px;
+  min-height: 56px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -154,6 +160,7 @@ body {
   color: var(--color-white-background);
   background-color: var(--color-primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
