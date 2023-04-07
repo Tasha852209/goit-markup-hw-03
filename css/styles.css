@@ -85,10 +85,10 @@ body {
 }
 .site-nav {
   display: flex;
+  gap: 40px;
   margin-right: auto;
 }
 .site-nav .item:not(:last-child) {
-  margin-right: 40px;
 }
 
 /* .list {
