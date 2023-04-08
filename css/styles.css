@@ -82,14 +82,14 @@ body {
 .nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .site-nav {
   display: flex;
   gap: 40px;
-  margin-right: auto;
 }
-.site-nav .item:not(:last-child) {
-}
+/* .site-nav .item:not(:last-child) {
+} */
 
 /* .list {
   list-style: none;
@@ -127,6 +127,10 @@ body {
 .address-link:hover,
 .address-link:focus {
   color: var(--color-pressed-state);
+}
+.header-flex {
+  display: flex;
+  align-items: center;
 }
 .hero-section {
   background-color: var(--color-hero-background);
