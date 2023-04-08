@@ -178,16 +178,21 @@ body {
   background-color: var(--color-pressed-state);
 }
 .features {
-  padding: 0px;
+  display: flex;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-/* .feature-content {
-} */
+.feature-content {
+  flex-basis: calc((100% - 72px) / 4);
+}
 .feature-subject {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark);
+  margin-bottom: 8px;
 }
 .feature-text {
   font-weight: 400;
