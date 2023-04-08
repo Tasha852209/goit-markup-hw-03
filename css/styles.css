@@ -176,11 +176,13 @@ body {
 .title-btn:focus {
   background-color: var(--color-pressed-state);
 }
+.feature-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .features {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .feature-content {
   flex-basis: calc((100% - 72px) / 4);
@@ -299,6 +301,21 @@ body {
   color: var(--color-light);
   max-width: 264px;
 }
+/**
+  |============================
+  | PORTFOLIO
+  |============================
+*/
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.portfolio-buttons {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
 .portfolio-btn {
   background-color: var(--color-light);
   color: var(--color-primary-brand);
@@ -310,14 +327,23 @@ body {
   border-radius: 4px;
   cursor: pointer;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--color-pressed-state);
   color: var(--color-white-background);
+  border: 1px solid transparent;
+}
+.portfolio-cards {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
 }
 .link-card {
   background-color: var(--color-white-background);
+  flex-basis: calc((100%-24px * 2) / 3);
 }
 .card-subject {
   font-weight: 500;
